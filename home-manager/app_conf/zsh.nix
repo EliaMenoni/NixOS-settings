@@ -13,7 +13,7 @@
       pkgs = "nano ~/.nixos/minimal-nix/home-manager/pkg.nix";
       
       #FOLDERS
-      uni = "cd ~/Documents/UNI"
+      uni = "cd ~/Documents/UNI";
 
     };
 
