@@ -10,6 +10,7 @@
   # You can import other home-manager modules here
   imports = [
     ./pkg.nix
+#    nixneovim.nixosModules.homeManager-24-05
   ];
 
   nixpkgs = {
@@ -17,7 +18,7 @@
     overlays = [
       # If you want to use overlays exported from other flakes:
       # neovim-nightly-overlay.overlays.default
-
+#      nixneovim.overlays.default
       # Or define it inline, for example:
       # (final: prev: {
       #   hi = final.hello.overrideAttrs (oldAttrs: {
@@ -46,7 +47,7 @@
   # Enable home-manager and git
   programs.home-manager.enable = true;
   programs.git.enable = true;
-  
+
   #Enable FONTS
   fonts.fontconfig.enable  = true;
 
