@@ -4,7 +4,7 @@
     enableCompletion = true;
     autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
-    
+   
     shellAliases = {
       ll = "ls -al";
       rb = "sudo nixos-rebuild switch --flake ~/.nixos/minimal-nix#pc-lav";
@@ -23,4 +23,7 @@
       theme = "agnoster";
     };
   };
+
+
+#  programs.zsh.zsh-autoenv.enable = true;
 }

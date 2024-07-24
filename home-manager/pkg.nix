@@ -11,7 +11,28 @@
   ];
 
   home.packages = with pkgs; [
+    # SOFTWARE
     typora
+    chromium
+    vscode
+    spotify
+    pcsc-tools
+    obsidian
+    
+    # TERMINAL
+    tilix
+
+    # GNOME
+#    gnome.gnome-terminal
+    gnome.gnome-tweaks
+    gnome.gnome-shell-extensions
+
+#    gnomeExtensions.tiling-assistant
+    gnomeExtensions.pop-shell
+#    gnomeExtensions.hide-top-bar
+    gnomeExtensions.just-perfection
+#    gnomeExtensions.fullscreen-to-empty-workspace
+#    gnomeExtensions.custom-window-controls
 
     # FONTS
     font-awesome
