@@ -18,7 +18,9 @@
     spotify
     pcsc-tools
     obsidian
-    
+    netflix
+    localsend    
+#    opendrop    
     # TERMINAL
     tilix
 
