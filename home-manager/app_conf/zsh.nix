@@ -11,9 +11,6 @@
       upg = "sudo nixos-rebuild switch --upgrade --flake ~/.nixos/minimal-nix#pc-lav";
       hrb = "home-manager switch --flake ~/.nixos/minimal-nix#main";
       pkgs = "nano ~/.nixos/minimal-nix/home-manager/pkg.nix";
-      
-      #FOLDERS
-      uni = "cd ~/Documents/UNI";
 
     };
 
