@@ -1,7 +1,7 @@
 {
   # Enable the X11 windowing system.
   services.xserver.enable = true;
-
+  services.xserver.videoDrivers = [ "intel" ];
   # Enable the Deepin Desktop Environment.
   #services.xserver.displayManager.lightdm.enable = true;
   #services.xserver.desktopManager.deepin.enable = true;

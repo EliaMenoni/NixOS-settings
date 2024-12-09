@@ -8,6 +8,7 @@
     pkgs.usbutils
     pkgs.fprintd
 #    pkgs.owl
-    pkgs.xorg.xrandr   
+    pkgs.xorg.xrandr
+    pkgs.inteltool
   ];
 }
